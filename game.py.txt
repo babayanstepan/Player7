@@ -34,6 +34,8 @@ Button3 = tkr.Button(music_player, width=5, height=3, font="Helvetica 12 bold", 
 Button4 = tkr.Button(music_player, width=5, height=3, font="Helvetica 12 bold", text="UNPAUSE", command=unpause, bg="orange", fg="white")
 Button5 = tkr.Button(music_player, width=5, height=3, font="Helvetica 12 bold", text="UNPAUSE", command=unpause, bg="orange", fg="white")
 Button6 = tkr.Button(music_player, width=5, height=3, font="Helvetica 12 bold", text="UNPAUSE", command=unpause, bg="orange", fg="white")
+Button7 = tkr.Button(music_player, width=5, height=3, font="Helvetica 12 bold", text="UNPAUSE", command=unpause, bg="orange", fg="white")
+
 
 ​
 var = tkr.StringVar() 
@@ -46,6 +48,7 @@ Button3.pack(fill="x")
 Button4.pack(fill="x")
 Button5.pack(fill="x")
 Button6.pack(fill="x")
+Button7.pack(fill="x")
 
 play_list.pack(fill="both", expand="yes")
 music_player.mainloop()
